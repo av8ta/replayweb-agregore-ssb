@@ -1,0 +1,20 @@
+{
+  "name": "replayweb-agregore-ssb",
+  "version": "1.0.0",
+  "description": "meta repo to test integration of ssb agregore and replayweb.page",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "npm run yarn:install && npm run yarn:link",
+    "prebootstrap": "cd ssb-fetch && git checkout av8ta",
+    "git:pull": "meta git pull",
+    "yarn:install": "meta yarn install",
+    "yarn:link": "meta yarn link --all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "av8ta",
+  "license": "MIT",
+  "devDependencies": {
+    "meta": "^2.2.25",
+    "meta-yarn": "^1.1.5"
+  }
+}
