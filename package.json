@@ -4,11 +4,13 @@
   "description": "meta repo to test integration of ssb agregore and replayweb.page",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "npm run yarn:install && npm run yarn:link",
-    "prebootstrap": "cd ssb-fetch && git checkout av8ta",
+    "bootstrap": "npm i && npm run yarn:install && npm run yarn:link",
+    "start:dev": "meta exec 'yarn start-dev'",
+    "start": "cd agregore-browser && yarn start",
     "git:pull": "meta git pull",
-    "yarn:install": "meta yarn install",
-    "yarn:link": "meta yarn link --all",
+    "yarn:install": "meta-yarn install",
+    "yarn:link": "meta-yarn link",
+    "deps:clean": "meta exec 'rm -rf node_modules'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "av8ta",
