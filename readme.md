@@ -102,3 +102,6 @@ terminal 3
 ```bash
 yarn start
 ```
+
+in agregore browse to <http://localhost:9990>
+and paste in ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=

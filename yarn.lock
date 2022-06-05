@@ -1724,7 +1724,7 @@
   "resolved" "https://registry.npmjs.org/looper/-/looper-2.0.0.tgz"
   "version" "2.0.0"
 
-"looper@^3.0.0":
+"looper@^3.0.0", "looper@~3.0.0":
   "integrity" "sha512-LJ9wplN/uSn72oJRsXTx+snxPet5c8XiZmOKCm906NVYu+ag6SB6vUcnJcWxgnl2NfbIyeobAn7Bwv6xRj2XJg=="
   "resolved" "https://registry.npmjs.org/looper/-/looper-3.0.0.tgz"
   "version" "3.0.0"
@@ -1733,11 +1733,6 @@
   "integrity" "sha512-NjGRcX4vCwyfbujv03omakGfAYh6St5kVsZFKfU23MFO1Z9/mZT8ypTZMEnvVC7nJeYtbqkRPFV4GoJBPdJgYw=="
   "resolved" "https://registry.npmjs.org/looper/-/looper-4.0.0.tgz"
   "version" "4.0.0"
-
-"looper@~3.0.0":
-  "integrity" "sha512-LJ9wplN/uSn72oJRsXTx+snxPet5c8XiZmOKCm906NVYu+ag6SB6vUcnJcWxgnl2NfbIyeobAn7Bwv6xRj2XJg=="
-  "resolved" "https://registry.npmjs.org/looper/-/looper-3.0.0.tgz"
-  "version" "3.0.0"
 
 "lossy-store@^1.2.3":
   "integrity" "sha512-rvqTCHZxWLvHAJv2w5vdCr5xICAW/FiXQ9wZGaAfBlNGG2FuLX0URNcj/zXC3qr5zQ8lBCbW8EEmDCKi7Dsp1g=="
