@@ -22,7 +22,7 @@ yarn bootstrap
 start webpack dev servers for replayweb.page and wabac.js
 
 ```bash
-yarn start-dev
+yarn start:dev
 ```
 
 start agregore. if you make changes to ssb-fetch, agregore must be restarted. reconnect will be implemented soon.
