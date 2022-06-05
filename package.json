@@ -2,21 +2,31 @@
   "name": "replayweb-agregore-ssb",
   "version": "1.0.0",
   "description": "meta repo to test integration of ssb agregore and replayweb.page",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "bootstrap": "npm i && npm run yarn:install && npm run yarn:link",
     "start:dev": "meta exec 'yarn start-dev'",
-    "start": "cd agregore-browser && yarn start",
+    "ssb": "node index.js",
+    "start": "cd agregore-browser && ssb_appname=replayweb-agregore-ssb yarn start",
     "git:pull": "meta git pull",
     "yarn:install": "meta-yarn install",
     "yarn:link": "meta-yarn link",
+    "clean": "npm run deps:clean && npm run ssb:clean",
     "deps:clean": "meta exec 'rm -rf node_modules'",
+    "ssb:clean": "rm -rf ~/.replayweb-agregore-ssb/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "av8ta",
   "license": "MIT",
   "devDependencies": {
+    "@metacentre/shipyard": "^1.1.2",
+    "@metacentre/shipyard-ssb": "^1.1.0",
     "meta": "^2.2.25",
-    "meta-yarn": "^1.1.5"
+    "meta-yarn": "^1.1.5",
+    "mkdirp": "^1.0.4",
+    "pull-file": "^1.1.0",
+    "pull-stream": "^3.6.14",
+    "ssb-fetch": "^1.4.4"
   }
 }
