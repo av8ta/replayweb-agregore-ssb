@@ -57,7 +57,7 @@ paste in the ssb url from earlier
 
 ```
 // ssb blobs are content addressed by sha256 hashes, so this is the blob added by running `yarn ssb`
-ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=
+ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=#.wacz
 
 https://metacentre.sgp1.digitaloceanspaces.com/webrecorder/lisp.wacz
 ```
@@ -104,4 +104,4 @@ yarn start
 ```
 
 in agregore browse to <http://localhost:9990>
-and paste in ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=
+and paste in ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=#.wacz
