@@ -1,11 +1,15 @@
 import file from 'pull-file'
 import pull from 'pull-stream'
 import shipyard from '@metacentre/shipyard'
-import ssbServerPlugins from '@metacentre/shipyard-ssb'
 import os from 'os'
 import fs from 'fs'
 import { join } from 'path'
 import mkdirp from 'mkdirp'
+import db from 'ssb-db'
+import master from 'ssb-master'
+import blobs from 'ssb-blobs'
+
+const ssbServerPlugins = [db, master, blobs]
 
 const appname = 'replayweb-agregore-ssb'
 const configDir = join(os.homedir(), `.${appname}`)
