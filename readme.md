@@ -57,7 +57,9 @@ paste in the ssb url from earlier
 
 ```
 // ssb blobs are content addressed by sha256 hashes, so this is the blob added by running `yarn ssb`
-ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=#.wacz
+wacz:    ssb://blob/sha256/d8CiqahzsXOJP2xb-Mri8uDAo8351ZnfAd4PmvaWu4Q=
+
+warc.gz: ssb://blob/sha256/i2sw5ZksQTFyEJHiaQsaYXY1JrqlLXmqxSel3VPACMQ=
 
 https://metacentre.sgp1.digitaloceanspaces.com/webrecorder/lisp.wacz
 ```
