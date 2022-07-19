@@ -1,8 +1,8 @@
 {
   "projects": {
-    "replayweb.page": "git@github.com:webrecorder/replayweb.page.git",
-    "agregore-browser": "git@github.com:AgregoreWeb/agregore-browser.git",
-    "wabac.js": "git@github.com:webrecorder/wabac.js.git",
+    "replayweb.page": "git@github.com:av8ta/replayweb.page.git",
+    "agregore-browser": "git@github.com:av8ta/agregore-browser.git",
+    "wabac.js": "git@github.com:av8ta/wabac.js.git",
     "ssb-fetch": "git@github.com:av8ta/ssb-fetch.git"
   }
 }
